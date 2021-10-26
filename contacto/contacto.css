@@ -3,6 +3,26 @@ body{
     background-image: url(https://res.cloudinary.com/turi4/image/upload/v1630705486/fondocontacto_xqffls.jpg)
 }
 
+.navbar{
+  background-color: #ff9138;
+  border: 1px solid white;
+
+}
+
+.navbar  .nav-link{
+   text-decoration: none;
+   font-size: 22px;
+   padding: 0 18px;
+   color: black;
+   font-family: 'Staatliches', cursive;   
+   }
+
+ .titulo{
+   text-align: center;
+   color: white;
+ }
+
+
 /* Formulario contacto*/
 
 :root {

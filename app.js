@@ -19,4 +19,9 @@ function scrollTopButton(btn) {
   })
 }
 
+//Titulo, escrito en Jquery con animacion
+
+let titulo = $('#id1').fadeIn(3500);
+$('#id1').text("Cervecería Turienzo!")
+
 
