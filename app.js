@@ -40,3 +40,8 @@ let mensajePromo = () =>{
   swal("Promos!", "Encargá mediante el icono de whatsapp, especificando el numero de promo solicitada");
 }
 
+let mensajeDelivery = () =>{
+  event.preventDefault()
+  swal("Peidos", "Encargá mediante el icono de whatsapp, especificando tu pedido.");
+}
+

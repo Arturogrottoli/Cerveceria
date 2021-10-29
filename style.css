@@ -133,6 +133,56 @@ font-family: 'Staatliches', cursive;
     border: solid black;
 }
 
+
+/*Menu*/
+
+.img-portada-menu {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/menuportada.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.texto-portada-menu {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 300px;
+    margin-left: 524px;
+    width: 312px;
+}
+
+.titleMenu{
+    margin-left: 430px;
+    padding: 30px;
+}
+
+.contenedor-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.divTexto-menu {
+    width: 535px;
+}
+
+.btnMasInfo {
+    width: 252px;
+    height: 62px;
+    color: #fff;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: bold;
+    border: none;
+}
+
+
 /*Contenedor Equipo*/
 
 .contenedor{
