@@ -24,4 +24,19 @@ function scrollTopButton(btn) {
 let titulo = $('#id1').fadeIn(3500);
 $('#id1').text("Cervecería Turienzo!")
 
+let tituloCervezas = $('#id2').fadeIn(3500);
+$('#id2').text("Probá nuestras distintas variedades de cerveza!")
+
+//Funcion mostrar mensaje
+
+
+let mostrarMensaje = () =>{
+   event.preventDefault()
+   swal("Felicidades!", "Ya estas registrado, recibiras nuestras novedades en tu correo!","success");
+}
+
+let mensajePromo = () =>{
+  event.preventDefault()
+  swal("Promos!", "Encargá mediante el icono de whatsapp, especificando el numero de promo solicitada");
+}
 

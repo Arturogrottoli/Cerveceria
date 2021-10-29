@@ -91,6 +91,89 @@ font-family: 'Staatliches', cursive;
     height: 100%;
 }
 
+/*Cervezas*/
+
+.img-portada-cervezas {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/portadacervezas.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.texto-portada-cervezas {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 150px;
+    margin-left: 524px;
+    width: 312px;
+}
+
+.contenedor-cerveza {
+    margin: 10px;
+    border: solid black;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.divTexto-cerveza {
+    padding-left: 100px;
+}
+
+.divTexto-cerveza p {
+    width: 600px;
+}
+.imagen-cervezaSmart {
+    width: 400px;
+    border: solid black;
+}
+
+/*Contenedor Equipo*/
+
+.contenedor{
+    width: 90%;
+    max-width: 1250px;
+    margin: 15px auto;
+    display: grid;
+    grid-gap: 15px; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,auto);
+  }
+
+.contenedor > div,
+.contenedor .contenido{
+    padding: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: span 1;
+    
+}
+
+
+ 
+.contenedor .widget-1{
+    height: 100px;
+  display: flex;
+  grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: blue;
+}
+.contenedor .widget-2{
+  height: 100px;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+
 
 
 /* boton de scroll*/
@@ -105,7 +188,7 @@ font-family: 'Staatliches', cursive;
     font-size: 2rem;
     font-weight: bold;
     
-    color: white;
+    background-color: orange;
     outline: 0;
     border: 0;
     cursor: pointer;
