@@ -42,6 +42,6 @@ let mensajePromo = () =>{
 
 let mensajeDelivery = () =>{
   event.preventDefault()
-  swal("Peidos", "Encargá mediante el icono de whatsapp, especificando tu pedido.");
+  swal("Pedidos", "Encargá mediante el icono de whatsapp, especificando tu pedido.");
 }
 

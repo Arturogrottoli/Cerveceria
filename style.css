@@ -133,6 +133,51 @@ font-family: 'Staatliches', cursive;
     border: solid black;
 }
 
+/* RESPONSIVE MOBILE */
+
+/*Celular*/
+
+@media (max-width: 581px) {
+
+
+   
+    .navbar-brand{
+        display: none;
+    }
+
+    .smartTamanioImg {
+        width: 406px;
+    }
+
+    .texto-portada-cervezas{
+        font-size: 30px;
+        line-height: 29px;
+        padding-top: 225px;
+        padding-left: 100px;
+        margin: 0 0 50px;
+    }
+
+
+    .contenedor-cerveza {
+        margin: 36px 0px 36px 0px;
+    }
+    .divTexto-cerveza p{
+        width: 220px;
+        font-size: 11px;
+    }
+    .imagen-smart{
+        margin: 0 0 220px;
+    }
+    .imagen-cervezaSmart {
+        width: 150px;
+       
+    }
+    
+    .scroll-top-btn {
+        right: 10vw;
+    }
+}
+
 
 /*Menu*/
 
@@ -164,10 +209,23 @@ font-family: 'Staatliches', cursive;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 150px;
+    margin: 20px;
+    border: solid black;
+    background-color: orange;
+    padding: 20px;
+}
+
+.imagen-menu {
+    width: 400px;
+    border: solid black;
 }
 
 .divTexto-menu {
     width: 535px;
+}
+
+.divTexto-menu p{
+    font-size: 20px;
 }
 
 .btnMasInfo {
