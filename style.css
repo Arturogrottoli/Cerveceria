@@ -179,6 +179,46 @@ font-family: 'Staatliches', cursive;
 }
 
 
+/*Tablet*/
+
+@media (max-width: 768px) {
+
+    
+
+    .smartTamanioImg {
+        width: 768px;
+    }
+
+    .texto-portada-cervezas{
+        font-size: 30px;
+        line-height: 29px;
+        padding-top: 225px;
+        padding-left: 325px;
+        margin: 0 0 50px;
+    }
+
+
+    .contenedor-cerveza {
+        margin: 36px 0px 36px 0px;
+    }
+    .divTexto-cerveza p{
+        width: 220px;
+        font-size: 11px;
+    }
+    .imagen-smart{
+        margin: 0 0 150px;
+    }
+    .imagen-cervezaSmart {
+        width: 250px;
+       
+    }
+    
+    .scroll-top-btn {
+        right: 10vw;
+    }
+}
+
+
 /*Menu*/
 
 .img-portada-menu {
